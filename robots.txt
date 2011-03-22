@@ -1,6 +1,3 @@
-User-agent: *
-Disallow: /api/
-
 User-agent: Anawave
 User-agent: EmailCollector
 User-agent: EmailSiphon

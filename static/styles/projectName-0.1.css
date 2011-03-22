@@ -1,9 +1,9 @@
 /**
-*    @package		Boilerplate
-*    @subpackage	CSS
-*    @author		Ben Sekulowicz-Barclay
-*    @version		0.1
-**/
+ *  @package	Boilerplate
+ *  @subpackage	CSS
+ *  @author		Ben Sekulowicz-Barclay
+ *  @version	0.1
+ */
 
 @media all {
 	html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
@@ -49,13 +49,13 @@
 	}
 
 	ins {
-	background-color:#ff9;
+	background-color:#FF9;
 	color:#000;
 	text-decoration:none
 	}
 
 	mark {
-	background-color:#ff9;
+	background-color:#FF9;
 	color:#000;
 	font-style:italic;
 	font-weight:bold
@@ -77,7 +77,7 @@
 
 	hr {
 	border:0;
-	border-top:1px solid #cccccc;
+	border-top:1px solid #CCC;
 	display:block;
 	height:1px;
 	margin:1em 0;
@@ -109,17 +109,22 @@
 	top:-999px;
 	width:1px
 	}
+	
+	.ir {
+    display:block;
+    text-align:left;
+    text-indent:-9999px
+    }
 
 	h1,h2,h3,h4,h5,h6,p,blockquote,pre,address,cite,code,dl,ol,ul,label,legend,table,caption {
 	display:block;
 	font:normal normal 400 1em/1.5em Georgia,Serif;
 	list-style:none;
-	margin:0 0 1.5em;
-	text-rendering:optimizeLegibility
+	margin:0 0 1.5em
 	}
 
 	dd,dt,li {
-	display:block;
+	display:list-item;
 	margin:0;
 	padding:0
 	}
