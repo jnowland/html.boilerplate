@@ -38,7 +38,7 @@ AddType text/cache-manifest           	manifest
 	ExpiresActive on
 	ExpiresDefault                          "access plus 1 month"
 	ExpiresByType text/cache-manifest       "access plus 0 seconds"
-	ExpiresByType text/html            		"access"
+	ExpiresByType text/html            		  "access"
 	ExpiresByType application/rss+xml       "access plus 1 hour"
 	ExpiresByType image/vnd.microsoft.icon  "access plus 1 week" 
 	ExpiresByType image/png                 "access plus 1 month"

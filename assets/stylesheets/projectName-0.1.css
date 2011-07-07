@@ -1,4 +1,4 @@
-/**
+/*
  *  @package	Boilerplate
  *  @subpackage	CSS
  *  @author		Ben Sekulowicz-Barclay
@@ -111,10 +111,10 @@
 	}
 	
 	.ir {
-    display:block;
-    text-align:left;
-    text-indent:-9999px
-    }
+  display:block;
+  text-align:left;
+  text-indent:-9999px
+  }
 
 	h1,h2,h3,h4,h5,h6,p,blockquote,pre,address,cite,code,dl,ol,ul,label,legend,table,caption {
 	display:block;
