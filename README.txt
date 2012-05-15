@@ -1,7 +1,3 @@
-Boilerplate
----------------------------------------------------------------------------------------------------
+# HTML5 Boilerplate
 
-A simple template for HTML5 based-projects that uses aspects of the HTML 5 reset and HTML 5 
-Boilerplate projects, along with specific settings that I often use in projects. 
-
-Your mileage may vary ...
+A lightweight boilerplate for developing websites for modern browsers, with code for starting out your CSS and Javascript work. As used on beseku.co.uk and flickrshow.co.uk.

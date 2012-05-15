@@ -1,3 +1,4 @@
+User-agent: *
 User-agent: Anawave
 User-agent: EmailCollector
 User-agent: EmailSiphon

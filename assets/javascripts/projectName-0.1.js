@@ -1,33 +1,39 @@
 /*
- *  @package	  Boilerplate
- *  @subpackage	Javascript
+ *  @package	  Project Name
+ *  @subpackage	CSS
  *  @author		  Ben Sekulowicz-Barclay
  *  @version	  0.1
  */
+ 
+var projectName = (function($) {
 
-projectName = {
+  var _ = this;
 
   /*
-   * 
-   * These listener functions are triggered when specific events occur, such as the page loading
-   * or a specific DOM element being present.
-   * 
-   */
-  
-  listeners: {
-  
-    /*
-     * @author Ben Sekulowicz-Barclay
-     * @access public
-     * @return void
-     */
-    
-    hasInitialized: function() {
-      // Add first/last classes for neater CSS with IE ...
-      $('.ie6 *:first-child').addClass('isFirstChild');
-      $('.ie6 *:last-child').addClass('isLastChild');
-    }
-  }    
-};
+  * @author Ben Sekulowicz-Barclay
+  * @access public
+  * @param  object event
+  * @return void
+  */
 
-$(document).bind("CORE:HAS_INITIALIZED", projectName.listeners.hasInitialized);
+  this.on_hash = function(e) { 
+
+  };
+
+  /*
+  * @author Ben Sekulowicz-Barclay
+  * @access public
+  * @param  object event
+  * @return void
+  */
+
+  this.on_load = function(e) {
+
+  };
+
+  return _;
+})(jQuery);
+
+jQuery(window).on('hashchange', projectName.on_hash);
+jQuery(document).on('ready', projectName.on_load);
+jQuery(document).on('ready', projectName.on_hash);

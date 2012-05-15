@@ -1,190 +1,181 @@
 /*
- *  @package	Boilerplate
+ *  @package	  Project Name
  *  @subpackage	CSS
- *  @author		Ben Sekulowicz-Barclay
- *  @version	0.1
+ *  @author		  Ben Sekulowicz-Barclay
+ *  @version	  0.1
  */
 
-@media all {
-	html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
-	background:transparent;
-	border:0;
-	font-size:100%;
-	margin:0;
-	padding:0;
-	outline:0;
-	vertical-align:baseline
-	}
+* {
+font-size:100%
+}
 
-	body {
-	line-height:1
-	}
+html * {
+background:transparent;
+border:0;
+margin:0;
+padding:0;
+outline:0;
+vertical-align:baseline
+}
 
-	article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
-	display:block
-	}
+body {
+background-color:#fff;
+color:#000;
+line-height:1
+}
 
-	nav ul {
-	list-style:none
-	}
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+section,
+blockquote,
+dl,
+h1,
+h2,
+h3,
+ol,
+p,
+pre,
+ul {
+display:block
+}
 
-	blockquote,q {
-	quotes:none
-	}
+article:last-child,
+section:last-child,
+dl:last-child,
+h1:last-child,
+h2:last-child,
+h3:last-child,
+ol:last-child,
+p:last-child,
+pre:last-child,
+ul:last-child {
+margin-bottom:0
+}
 
-	blockquote:before,
-	blockquote:after,
-	q:before,
-	q:after {
-	content:'';
-	content:none
-	}
+.ielt9 article.last-child,
+.ielt9 section.last-child,
+.ielt9 dl.last-child,
+.ielt9 h1.last-child,
+.ielt9 h2.last-child,
+.ielt9 h3.last-child,
+.ielt9 ol.last-child,
+.ielt9 p.last-child,
+.ielt9 pre.last-child,
+.ielt9 ul.last-child {
+margin-bottom:0
+}
 
-	a {
-	background:transparent;
-	font-size:100%;
-	margin:0;
-	padding:0;
-	vertical-align:baseline
-	}
+blockquote,
+code,
+dl,
+h1,
+h2,
+h3,
+ol,
+p,
+pre,
+ul {
+font:normal normal 400 1.125em/1.5em serif;
+list-style:none;
+-moz-text-size-adjust:none;
+-ms-text-size-adjust:none;
+-o-text-size-adjust:none;
+-webkit-text-size-adjust:none;
+text-size-adjust:none
+}
 
-	ins {
-	background-color:#FF9;
-	color:#000;
-	text-decoration:none
-	}
+a {
+text-decoration:underline
+}
 
-	mark {
-	background-color:#FF9;
-	color:#000;
-	font-style:italic;
-	font-weight:bold
-	}
+a:hover {
+text-decoration:none
+}
 
-	del {
-	text-decoration:line-through
-	}
+h1 a,
+h2 a,
+h3 a {
+color:inherit
+}
 
-	abbr[title],dfn[title] {
-	border-bottom:1px dotted inherit;
-	cursor:help
-	}
+abbr[title] {
+border:none;
+cursor:help
+}
 
-	table {
-	border-collapse:collapse;
-	border-spacing:0
-	}
+abbr[title]:hover {
+cursor:help;
+text-decoration:underline
+}
 
-	hr {
-	border:0;
-	border-top:1px solid #CCC;
-	display:block;
-	height:1px;
-	margin:1em 0;
-	padding:0
-	}
+blockquote > p {
+font-style:italic
+}
 
-	input,select {
-	vertical-align:middle
-	}
+blockquote > p:first-child:before {
+content:"\2018"
+}
+
+blockquote > p:last-child:after {
+content:"\2019"
+}
+
+code {
+font-family:monospace, sans-serif
+}
+
+h1,
+h2,
+h3 {
+font-weight:700
+}
+
+img {
+display:block
+}
+
+li {
+display:list-item
+}
+
+strong {
+font-weight:600
+}
+
+.element:after {
+clear:both;
+content:'.';
+display:block;
+height:0;
+visibility:hidden
+}
+
+.ie .element {
+zoom:1
 }
 
 @media screen {
-	body {
-	background:#FFF;
-	font-size:100%
-	}
-
-	.implied {
-	clip:rect(1px,1px,1px,1px);
-	position:absolute !important
-	}
-
-	.ielt8 .implied {
-	height:1px;
-	left:-999px;
-	overflow:hidden;
-	position:absolute;
-	text-indent:-999px;
-	top:-999px;
-	width:1px
-	}
-	
-	.ir {
-  display:block;
-  text-align:left;
-  text-indent:-9999px
+  .ns {
+  clip:rect(1px, 1px, 1px, 1px);
+  height:auto !important;
+  position:absolute !important;
+  width:auto !important
   }
 
-	h1,h2,h3,h4,h5,h6,p,blockquote,pre,address,cite,code,dl,ol,ul,label,legend,table,caption {
-	display:block;
-	font:normal normal 400 1em/1.5em Georgia,Serif;
-	list-style:none;
-	margin:0 0 1.5em
-	}
-
-	dd,dt,li {
-	display:list-item;
-	margin:0;
-	padding:0
-	}
-
-	abbr,acronym {
-	border:none;
-	cursor:help
-	}
-
-	a abbr,a acronym {
-	cursor:pointer
-	}
-
-	pre,code,kbd,samp {
-	font-family:monospace,sans-serif
-	}
-
-	.elementSelector:after {
-	clear:both;
-	content:'.';
-	display:block;
-	height:0;
-	visibility:hidden
-	}
-
-	.ie .elementSelector {
-	zoom:1
-	}
+  .ie .ns {
+  display:none  
+  }
 }
 
 @media print {
-	* {
-	background:transparent !important;
-	color:#000 !important;
-	text-shadow:none
-	}
-
-	a,
-	a:visited {
-	color:#444 !important;
-	text-decoration:underline
-	}
-
-	a:after {
-	content:" (" attr(href) ")"
-	}
-
-	abbr:after {
-	content:" (" attr(title) ")"
-	}
-
-	blockquote,img,pre {
-	page-break-inside:avoid
-	}
-
-	img {
-	page-break-inside:avoid
-	}
-
-	@page {
-	margin:0.5cm
-	}
+  .np {
+  clip:rect(1px, 1px, 1px, 1px);
+  height:auto !important;
+  position:absolute !important;
+  width:auto !important
+  }
 }
